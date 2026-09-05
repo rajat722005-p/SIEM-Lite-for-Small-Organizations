@@ -1,35 +1,30 @@
-name: Daily GitHub Streak Maintainer
+name: Daily Natural Developer Activity & Streak Maintainer
 
 on:
   schedule:
-    # Runs twice daily at 02:00 UTC (07:30 AM IST) and 14:00 UTC (07:30 PM IST)
-    - cron: '0 2,14 * * *'
-  workflow_dispatch: # Allows manual 1-click trigger anytime from GitHub Actions tab
+    # Runs at natural developer hours (03:30, 09:30, 15:30, 21:30 UTC)
+    - cron: '30 3,9,15,21 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
 
 permissions:
   contents: write
 
 jobs:
-  daily-commit:
+  developer-activity:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout SIEM-Lite Repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
+          fetch-depth: 10
 
-      - name: Update Threat Feeds & Activity Timestamp
-        run: |
-          mkdir -p .activity
-          CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          echo "[$CURRENT_DATE] Automated SIEM Threat Feed Sync & Health Check" >> .activity/daily_log.txt
-          echo "Last Active Sync: $CURRENT_DATE" > .activity/status.txt
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Commit and Push with Personal Author Identity
+      - name: Execute Organic Developer Commit Generator
         run: |
-          git config --global user.name "rajat722005-p"
-          git config --global user.email "rajat722005@gmail.com"
-          git add .activity/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore(telemetry): update IOC threat feeds and sync log collectors [$(date -u +'%Y-%m-%d')]"
-          git push origin main
+          python .github/scripts/random_dev_commit.py
