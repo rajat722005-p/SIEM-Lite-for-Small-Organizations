@@ -1,0 +1,15 @@
+{
+  "version": "2.4.0",
+  "last_sync": "2026-09-05 14:01:18 UTC",
+  "active_rules_count": 10,
+  "reputation_feeds": {
+    "tor_nodes_count": 492,
+    "malicious_c2_count": 1295,
+    "known_scanners_count": 902
+  },
+  "heuristics": {
+    "sqli_sensitivity": 0.95,
+    "bruteforce_threshold_rate": 5,
+    "portscan_probe_limit": 10
+  }
+}
