@@ -1,7 +1,7 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-05 14:01:18 UTC
+# Last Verified: 2026-09-05 14:01:19 UTC
 
-185.196.8.241/32 # Distributed Port Scanning Origin
-194.26.29.112/32 # Web Shell C2 Command Source
 103.253.144.10/32 # Compromised Edge Gateway IP
-198.51.100.42/32 # Fast-flux SSH Brute Force Origin
+194.26.29.112/32 # Web Shell C2 Command Source
+185.196.8.241/32 # Distributed Port Scanning Origin
+185.220.101.4/32 # Tor Exit Node (Known Scanner)
