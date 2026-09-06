@@ -1,11 +1,11 @@
 {
   "version": "2.4.0",
-  "last_sync": "2026-09-06 08:00:56 UTC",
+  "last_sync": "2026-09-06 12:59:40 UTC",
   "active_rules_count": 10,
   "reputation_feeds": {
-    "tor_nodes_count": 483,
-    "malicious_c2_count": 1290,
-    "known_scanners_count": 894
+    "tor_nodes_count": 498,
+    "malicious_c2_count": 1271,
+    "known_scanners_count": 914
   },
   "heuristics": {
     "sqli_sensitivity": 0.95,
