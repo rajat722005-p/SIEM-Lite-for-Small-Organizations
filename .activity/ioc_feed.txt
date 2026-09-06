@@ -1,7 +1,7 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-06 17:37:57 UTC
+# Last Verified: 2026-09-06 22:56:51 UTC
 
+194.26.29.112/32 # Web Shell C2 Command Source
+91.240.118.230/32 # Automated Nikto/Dirbuster Probe Source
 185.196.8.241/32 # Distributed Port Scanning Origin
 185.220.101.4/32 # Tor Exit Node (Known Scanner)
-194.26.29.112/32 # Web Shell C2 Command Source
-103.253.144.10/32 # Compromised Edge Gateway IP
