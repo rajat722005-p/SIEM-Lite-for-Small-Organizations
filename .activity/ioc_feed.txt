@@ -1,7 +1,7 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-07 15:08:01 UTC
+# Last Verified: 2026-09-07 15:08:02 UTC
 
-193.142.146.35/32 # Malicious User-Agent Fingerprint IP
-45.33.32.156/32 # Reconnaissance Botnet Probe
 103.253.144.10/32 # Compromised Edge Gateway IP
 185.220.101.4/32 # Tor Exit Node (Known Scanner)
+185.196.8.241/32 # Distributed Port Scanning Origin
+91.240.118.230/32 # Automated Nikto/Dirbuster Probe Source
