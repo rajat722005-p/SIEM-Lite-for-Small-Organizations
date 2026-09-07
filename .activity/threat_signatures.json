@@ -1,10 +1,10 @@
 {
   "version": "2.4.0",
-  "last_sync": "2026-09-07 19:18:02 UTC",
+  "last_sync": "2026-09-07 23:37:34 UTC",
   "active_rules_count": 10,
   "reputation_feeds": {
     "tor_nodes_count": 482,
-    "malicious_c2_count": 1255,
+    "malicious_c2_count": 1283,
     "known_scanners_count": 897
   },
   "heuristics": {
