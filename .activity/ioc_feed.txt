@@ -1,7 +1,7 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-08 04:03:14 UTC
+# Last Verified: 2026-09-08 08:13:52 UTC
 
+103.253.144.10/32 # Compromised Edge Gateway IP
 185.220.101.4/32 # Tor Exit Node (Known Scanner)
-193.142.146.35/32 # Malicious User-Agent Fingerprint IP
 194.26.29.112/32 # Web Shell C2 Command Source
 45.33.32.156/32 # Reconnaissance Botnet Probe
