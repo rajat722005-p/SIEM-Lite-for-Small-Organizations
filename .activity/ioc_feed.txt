@@ -1,10 +1,11 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-10 07:31:15 UTC
-# Total Feeds Active: 6
+# Last Verified: 2026-09-10 07:31:19 UTC
+# Total Feeds Active: 7
 
-185.196.8.241/32 # Distributed Port Scanning Origin
 45.154.255.88/32 # Masscan Internet Scanner Node
 185.220.101.4/32 # Tor Exit Node (Known Scanner)
-91.240.118.230/32 # Automated Nikto/Dirbuster Probe Source
-89.248.163.74/32 # Mirai Variant Recon Probe
 198.51.100.42/32 # Fast-flux SSH Brute Force Origin
+195.201.225.24/32 # Vulnerability Assessment Scanner IP
+89.248.163.74/32 # Mirai Variant Recon Probe
+193.142.146.35/32 # Malicious User-Agent Fingerprint IP
+185.196.8.241/32 # Distributed Port Scanning Origin
