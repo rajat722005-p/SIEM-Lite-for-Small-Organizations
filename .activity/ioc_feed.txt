@@ -1,8 +1,10 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-11 07:29:34 UTC
-# Total Feeds Active: 4
+# Last Verified: 2026-09-11 19:17:34 UTC
+# Total Feeds Active: 6
 
-91.240.118.230/32 # Automated Nikto/Dirbuster Probe Source
-195.201.225.24/32 # Vulnerability Assessment Scanner IP
+89.248.163.74/32 # Mirai Variant Recon Probe
+194.26.29.112/32 # Web Shell C2 Command Source
+185.196.8.241/32 # Distributed Port Scanning Origin
 45.33.32.156/32 # Reconnaissance Botnet Probe
+198.51.100.42/32 # Fast-flux SSH Brute Force Origin
 141.98.11.104/32 # Shodan Crawler Subnet
