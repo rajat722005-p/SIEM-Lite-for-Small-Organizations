@@ -1,17 +1,17 @@
 {
   "schema_version": "2.4.2",
-  "last_sync": "2026-09-11 22:46:52 UTC",
+  "last_sync": "2026-09-12 07:20:38 UTC",
   "engine_state": "ACTIVE_MONITORING",
   "active_rules_count": 10,
   "reputation_feeds": {
-    "tor_nodes_count": 513,
-    "malicious_c2_count": 1307,
-    "known_scanners_count": 914
+    "tor_nodes_count": 498,
+    "malicious_c2_count": 1293,
+    "known_scanners_count": 940
   },
   "heuristics": {
-    "sqli_sensitivity": 0.959,
-    "bruteforce_threshold_rate": 5,
-    "portscan_probe_limit": 10,
+    "sqli_sensitivity": 0.976,
+    "bruteforce_threshold_rate": 6,
+    "portscan_probe_limit": 8,
     "sliding_window_seconds": 60
   }
 }
