@@ -1,8 +1,10 @@
 # SIEM-Lite Dynamic IOC Threat Feed
-# Last Verified: 2026-09-13 18:57:03 UTC
-# Total Feeds Active: 4
+# Last Verified: 2026-09-13 22:36:32 UTC
+# Total Feeds Active: 6
 
-185.196.8.241/32 # Distributed Port Scanning Origin
+89.248.163.74/32 # Mirai Variant Recon Probe
+45.33.32.156/32 # Reconnaissance Botnet Probe
+185.220.101.4/32 # Tor Exit Node (Known Scanner)
+198.51.100.42/32 # Fast-flux SSH Brute Force Origin
 194.26.29.112/32 # Web Shell C2 Command Source
 103.253.144.10/32 # Compromised Edge Gateway IP
-45.33.32.156/32 # Reconnaissance Botnet Probe
